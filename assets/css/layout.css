@@ -1,0 +1,26 @@
+.header {
+    padding: 24px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 88px;
+    height:52px;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 56px;
+}
+
+
+.navbar .navbar-link.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: var(--primary);
+}

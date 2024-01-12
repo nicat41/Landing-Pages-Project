@@ -1,0 +1,231 @@
+.slider {
+  background-color: var(--primary-dark);
+  position: relative;
+}
+
+.slider .container {
+  display: flex;
+}
+
+.slider .slider-box {
+  width: 50%;
+}
+
+.slider .slider-box:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.slider-title {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.slider .shape:first-child {
+  bottom: 26px;
+  left: -70px;
+}
+
+.slider .shape:last-child {
+  top: 26px;
+  right: -67px;
+}
+
+.slider-title span {
+  color: var(--primary);
+}
+
+.slider-text {
+  color: #f4f3f3;
+  margin: 23px 0;
+  line-height: 160%;
+}
+
+.feature {
+  display: flex;
+  column-gap: 110px;
+}
+
+.feature .feature-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.feature .feature-item figure {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 34px;
+}
+
+.feature .feature-item .title {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--primary-dark);
+  margin-bottom: 15px;
+}
+
+.feature .feature-item .text {
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.section figure .shape {
+  left: -55px;
+  top: 30px;
+}
+.about-section .container {
+  display: flex;
+  padding: 0 45px;
+}
+
+.about-section .container .box {
+  width: 50%;
+  position: relative;
+}
+
+.about-section .container .box .shape {
+  z-index: -1;
+  bottom: -42px;
+  left: -35px;
+}
+
+.about-section .container .box:nth-child(2) .section-sub-title {
+  width: 450px;
+}
+
+.about-section .container .box:nth-child(2) .text {
+  margin-bottom: 26px;
+  width: 500px;
+}
+.about-section .container .box:nth-child(2) .btn {
+  height: 52px;
+}
+
+.about-section .container .photos {
+  display: flex;
+  column-gap: 25px;
+}
+
+.about-section .container .box figure {
+  width: 225px;
+  height: 350px;
+}
+
+.about-section .container .box figure:nth-child(2) {
+  margin-top: 60px;
+}
+
+.service-section {
+  background-color: var(--primary-dark);
+  padding: 96px 0;
+}
+.service-section .container {
+  padding: 0px 45px;
+}
+.service {
+  display: flex;
+  column-gap: 52px;
+}
+
+.service-item {
+  width: 50%;
+  position: relative;
+}
+
+.service-section .section-sub-title {
+  font-size: 48px;
+}
+
+.service-item .inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 84px 50px;
+}
+
+.service-item .inner .title {
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.service-item .inner .text {
+  font-weight: 400;
+  
+}
+
+.vission-section .container {
+  display: flex;
+  column-gap: 75px;
+}
+
+.vission-section .box {
+  position: relative;
+  width: 50%;
+}
+.vission-section .box .photo {
+  width: 380px;
+  margin: 0 auto;
+  position: relative;
+}
+.vission-section .box .shape {
+  position:absolute;
+  top: -42px;
+  left: 42px;
+}
+.vission-section .box:nth-child(2) {
+  padding-right: 50px;
+}
+.vission-section .box .photo img:nth-child(2) {
+  width: 200px;
+  height: 195px;
+  position: absolute;
+  bottom: -30px;
+  right: -60px;
+}
+
+.vission-section .box:nth-child(2) .text > * :not(:last-child) {
+  margin-bottom: 32px;
+}
+
+
+
+.vission-section .box:nth-child(2) .text ul, ol {
+  list-style:decimal;
+  margin-left: 17px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.paragraf {
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+
+
+.project-section .container .project {
+  display: flex;
+  column-gap: 30px;
+
+}
+.project-section .container .project-item {
+  position: relative;
+
+}
+
+.project-item .inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+
+
+
+
