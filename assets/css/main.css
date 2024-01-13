@@ -274,7 +274,6 @@ ol {
 .section-team .container .team .team-item {
   border: solid 1px #f5f5f5;
   border-radius: 10px;
-
 }
 
 .team-item .inner .name {
@@ -300,4 +299,35 @@ ol {
 }
 .right {
   right: -61px;
+}
+
+.section-started .container {
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  padding: 84px 234px;
+}
+.started {
+  margin-right: 80px;
+  padding-right: 80px;
+  height: 160px;
+  border-right: solid 1px #000;
+}
+.started .title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 160%;
+}
+.section-started .container .started .text {
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.button {
+  height: 54px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 100%;
 }
